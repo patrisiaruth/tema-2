@@ -1,0 +1,250 @@
+
+    * {
+        font-family: 'Montserrat', sans-serif;
+        box-sizing: border-box;
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    h2 {
+        font-size: 38px;
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background-color: whitesmoke;
+    }
+
+    header {
+        position: fixed;
+        background: #fff;
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu {
+        font-weight: 400;
+        display: flex;
+        margin: 0;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .menu li {
+        padding-right: 30px;
+    }
+
+    #logo {
+        width: 150px;
+        padding: 20px 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #company-name {
+        width: 150px;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .container {
+        padding-top: 70px;
+    }
+
+
+    .section {
+        padding: 200px;
+    }
+
+    .section.first {
+        text-align: left;
+        margin: 0 auto;
+    }
+    .red {
+        background-color: #e53935;
+        color: white;
+    }
+
+    .section.first h1 {
+        font-size: 64px;
+        font-weight: 700;
+        margin-bottom: 0;
+        margin-top: auto;
+    }
+
+    .section.first p {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .container-cards {
+        width: 100%;
+        background-color: #121212;
+        color: whitesmoke;
+    }
+
+    .section.left-w {
+        width: 100%;
+        background-color: whitesmoke;
+    }
+    .section.left-w p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    .section.left-w h2 {
+        font-size: 38px;
+    }
+    .section.left-w h4 {
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0;
+        color: #e53935;
+        margin-bottom: 20px;
+    }
+
+    
+    .section.left {
+        width: 100%;
+        background-color: #121212;
+    }
+
+    .section.left p {
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0;
+        color: white;
+    }
+    .section.left h4 {
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0;
+        color: #e53935;
+        margin-bottom: 20px;
+    }
+    .section.left h2 {
+        font-size: 38px;
+        color: white;
+    }
+
+    .three-column {
+        display: flex;
+    }
+    .three-column .col {
+        flex: 1 0 33.3%;
+    }
+
+    .team img {
+        width: 150px;
+        height: auto;
+    }
+
+    .team .col {
+        text-align: center;
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    .team .col p {
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .team h3 {
+        margin-bottom: 8px;
+        font-size: 20px;
+    }
+    .team h4 {
+        font-size: 14px;
+        font-weight: 400;
+        margin: 20px;
+        color: #e53935;
+        margin-bottom: 20px;
+    }
+
+    .element {
+        border: 1px solid white;
+        border-radius: 8px;
+        text-align: left;
+        padding: 20px;
+        margin-right: 20px;
+        font-weight: 800;
+        font-size: 30px;
+    }
+
+    .element p {
+        margin-bottom: 0;
+        margin-top: 8px;
+    }
+
+    .four-column {
+        display: flex;
+    }
+
+    .four-column .col {
+        flex: 1 0 25%;
+    }
+
+    #services ul {
+        padding-left: 0px;
+        list-style: none;
+    }
+    #services li {
+        padding-bottom: 8px;
+    }
+    #services h3 {
+        color: #e53935;
+    }
+
+    #link {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #e53935;
+    }
+    
+
+
+    footer {
+        background: #121212;
+        padding: 50px 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .column {
+        padding: 0 20px;
+    }
+
+    footer ul {
+        margin: 0;
+        list-style-type: none;
+        padding: 0;
+        color: white;
+    }
